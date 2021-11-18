@@ -1,0 +1,26 @@
+Algoritmo "Calculo Média para Abono"
+
+Var
+    janeiro, fevereiro, marco, abril, media:real
+
+
+Inicio
+      Escreva("Informe suas vendas de janeiro:")
+      Leia(janeiro)
+      Escreva("Informe suas vendas de fevereiro:")
+      Leia(fevereiro)
+      Escreva("Infome suas vendas de março:")
+      Leia(marco)
+      Escreva("Infome suas vendas de abril:")
+      Leia(abril)
+      media <- (janeiro+fevereiro+marco+abril)/4
+      Escreva(media)
+      se (media >=5000) entao
+        Escreva("  Parabéns você receberá um abono de 10%")
+      senao
+        Escreva("  Infelizmente você não receberá o abono :(")
+        
+      fimse
+
+
+Fimalgoritmo
